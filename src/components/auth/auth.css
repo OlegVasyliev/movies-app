@@ -1,0 +1,35 @@
+.form-signin {
+	align-items: center;
+	width: 100%;
+	max-width: 380px;
+	padding: 15px;
+	margin: auto;
+}
+
+.field-with-popover {
+	margin-right: -51.61px;
+}
+
+.field-with-popover svg {
+	margin: 0 12px;
+}
+
+.close ::before {
+	content: "X";
+	visibility: visible;
+	color: grey;
+	font-weight: bold;
+}
+
+.sr-only::before {
+	visibility: hidden;
+}
+
+.close {
+	visibility: hidden;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}

@@ -1,0 +1,100 @@
+.logo {
+    font-size: 3em;
+    color: #35cedc;
+    margin-right: 0;
+}
+
+.navbar-brand {
+    color: #35cedc;
+
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    border-radius: 10px;
+    background-color: #35cedc;
+    color: black !important;
+}
+
+.header-link,
+.header-link a {
+    height: 100%;
+}
+
+
+.header-link {
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 50px;
+    background-color: #dcdcdc;
+    box-shadow: 0px -9px 0px -5px #35cedc inset;
+    color: black !important;
+}
+
+
+.rounded-circle {
+    object-fit: cover;
+    color: #35cedc;
+}
+
+.dp-toggle {
+    background-color: transparent;
+    border: none;
+    color: #dcdcdc;
+}
+
+.dp-toggle.dropdown-toggle {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.dp-toggle:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.dp-toggle:after {
+    display: none;
+}
+
+.custom-badge {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 11px;
+}
+
+.notification {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.notification:hover {
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.notification h6 {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    width: 250px;
+}
+
+.notification-menu {
+    max-height: 250px;
+    overflow: auto;
+}
+#dropdownUser1 {
+    color: #35cedc;
+}
